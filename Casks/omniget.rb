@@ -3,10 +3,12 @@ cask "omniget" do
 
   on_arm do
     sha256 "8ab2459e54a324fcc8688bfe737e1173018eeedfb6e317e2d8b481697e3d04ef"
+
     url "https://github.com/tonhowtf/omniget/releases/download/v#{version}/omniget_#{version}_aarch64.dmg"
   end
   on_intel do
     sha256 "b5d5714d0cd633da82cdf5ff70e0dd98d68b2e28eb24776e66ea29ef3e73a5be"
+
     url "https://github.com/tonhowtf/omniget/releases/download/v#{version}/omniget_#{version}_x64.dmg"
   end
 
@@ -20,7 +22,7 @@ cask "omniget" do
   end
 
   auto_updates true
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "omniget.app"
 
