@@ -1,9 +1,9 @@
 cask "omniget" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "adb2c09e71ad65164976cfa0a7bdf0a1305608d515695caf65cd5a73824f79b3",
-         intel: "e7a6ea174e71237cffba2b029e1b5d60155e727f216360b061a05b7213e1dced"
+  version "1.0.1"
+  sha256 arm:   "cd1533f36960be5c545c04f9102f27d2901316ad3f9d05311b15a938a77ce118",
+         intel: "e8973b792bd91938d88bcd4937efecf278881a7262d0d0237bd3675361d188e0"
 
   url "https://getomniget.com/dl/v#{version}/omniget_#{version}_#{arch}.dmg"
   name "OmniGet"
